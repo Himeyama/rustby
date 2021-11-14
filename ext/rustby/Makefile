@@ -5,3 +5,5 @@ target/release/librustby.so: src/lib.rs
 
 rustby.so: target/release/librustby.so
 	cp $^ $@
+
+install:
