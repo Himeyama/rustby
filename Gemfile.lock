@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    rustby (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rustby!
+
+BUNDLED WITH
+   2.2.22
