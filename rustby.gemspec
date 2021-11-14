@@ -14,11 +14,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.5.0'
   spec.license = 'MIT'
 
-  spec.metadata['allowed_push_host'] = 'https://github.com/himeyama/rustby'
-
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/himeyama/rustby'
-  spec.metadata['changelog_uri'] = 'https://github.com/himeyama/rustby'
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
